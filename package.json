@@ -1,0 +1,23 @@
+{
+  "name": "gugubot",
+  "version": "0.0.1",
+  "description": "PFingan服务器 MCDR的QQ机器人插件，集QQ群管理和白名单管理一体，添加许多功能。",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/theme-default": "^2.0.0-rc.11",
+    "sass": "^1.83.1",
+    "vue": "^3.4.0",
+    "vuepress": "^2.0.0-rc.7"
+  },
+  "dependencies": {
+    "vuepress-theme-sidebar": "^0.1.0"
+  }
+}
